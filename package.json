@@ -4,7 +4,7 @@
   "description": "<p align=\"center\"><a href=\"#\" target=\"_blank\"><img src=\"https://postcss.org/assets/postcss-83d93145.svg\" width=\"190\" height=\"190\" alt=\"HTML Logo\"></a></p>",
   "main": "index.js",
   "scripts": {
-     "postcss:watch" : "postcss src/style.css --dir public --watch"
+    "postcss:watch": "postcss src/style.css --dir public --watch"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,13 @@
   "homepage": "https://github.com/DevAbdulAlimRony/postcss-sandbox#readme",
   "keywords": [],
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
     "postcss": "^8.4.27",
+    "postcss-assets": "^6.0.0",
     "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.1.0"
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.1.0",
+    "precss": "^4.0.0"
   }
 }

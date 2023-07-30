@@ -1,0 +1,21 @@
+/* Using prefixer plugin */
+input::placeholder{
+    color: green;
+}
+/* Using Image Assets Plugin */
+.card{
+    background-image: resolve('logo.png');
+    width: width('logo.png');
+    height: height('logo.png');
+}
+#my-goal input {
+    font: inherit;
+    border: 1px solid #ccc;
+  }
+  
+  #my-goal input:focus {
+    outline: none;
+    border-color: #1b995e;
+    background-color: #d7fdeb;
+  }
+  
