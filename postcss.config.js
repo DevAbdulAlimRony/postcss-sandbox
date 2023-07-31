@@ -16,7 +16,7 @@ module.exports = {
         
         //Using Future CSS
         require('postcss-preset-env')({
-            stage: 1,
+            stage: 2,
         }),
 
         /*Minify the CSS, Written in Nodejs
